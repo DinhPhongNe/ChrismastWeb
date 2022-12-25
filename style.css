@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:serif;
+}
+
+/* Header */
+.header {
+    background-color: black;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: left;
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.head{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    top: 4px;
+}
+
+.name{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+/* main */
+.pic{
+    background-image: url(./picture.jpg);
+    display: flex;
+}
+
+/* register */
+.register {
+    color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    padding: 50px 10px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form p{
+    color: white;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: 2px solid #bffff0;
+}
+
+button {
+    background: #f0ffc2;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* content */
+.content{
+    padding-left: 50px ;
+    color: white;
+    text-align: center;
+}
+
+.intro h1{
+    padding-left: 100px;
+    margin-top: 50px;
+    
+}
+
+.intro p{
+    padding-left: 100px;
+}
+
+
+.timer{
+    height: 150px;
+    width: 200px;
+}
+
+/* timer */
+body {
+    text-align: center;
+}
+
+.time h1{
+    text-align: center;
+}
+
+#timer {
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    width: 500px;
+    color: white;
+
+}
+
+#timer div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+#timer div span {
+    color: #ffffff;
+    display: block;
+    font-size: .35em;
+    font-weight: 400;
+}
+
+.time{
+    justify-content: space-around;
+    color: white;
+    width: 250px;
+    align-items: center;
+    padding: 50px 10px;
+    margin: 10px;
+}
+
+/* contact */
+.contact {
+    color: white;
+    padding: 50px 0;
+}
+
+.contact h1, .contact-quote {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.contact-items i {
+    margin: 0 10px;
+}
+
+.contact-form-input-row1 input {
+    padding: 10px;
+}
+
+.contact-form-input-row2 input {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.form-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    float: right;
+}
+
+/* Footer */
+.footer {
+    height: 100px;
+    padding: 20px 0;
+    text-align: center;
+    color: #696969;
+}
+
+.footer i {
+    font-size: 20px;
+    color: #696969;
+}
+
+.footer p {
+    margin: 20px 0;
+    font-size: 15px;
+}
+/* -------------------------------------- */
